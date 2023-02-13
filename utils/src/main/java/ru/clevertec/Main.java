@@ -1,6 +1,6 @@
 package ru.clevertec;
 
-import ru.clevertec.util.StringUtils;
+import util.StringUtils;
 
 public class Main {
     public static void main(String[] args) {

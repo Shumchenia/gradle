@@ -1,7 +1,8 @@
-package util;
+package ru.clevertec.util;
 
+import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
-import ru.clevertec.util.StringUtils;
+import util.StringUtils;
 
 import static org.junit.jupiter.api.Assertions.*;
 
@@ -9,7 +10,7 @@ public class StringUtilsTest {
     @Test
     void isPositive(){
         String str="7";
-        assertTrue(StringUtils.isPositiveNumber(str));
+        Assertions.assertTrue(StringUtils.isPositiveNumber(str));
     }
     @Test
     void isNegative(){
